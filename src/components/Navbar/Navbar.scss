@@ -27,11 +27,22 @@
     object-fit: contain;
     padding-left: 20px;
     cursor: pointer;
+    transition: 0.4s;
+  }
+
+  &_logo:hover {
+    transform: scale(1.1);
   }
 
   &_avatar {
     position: fixed;
     right: 20px;
     width: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  &_avatar:hover {
+    transform: scale(1.1);
   }
 }
